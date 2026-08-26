@@ -1,3 +1,5 @@
+python=3.12
+torch==2.10.0
 voila
 fastai==2.8.7
 pillow>=9.0.0
