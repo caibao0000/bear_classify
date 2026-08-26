@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.12
+  - python=3.10
   # ---- 基础运行/交互 ----
   - numpy=2.0.2
   - pillow=11.3.0
