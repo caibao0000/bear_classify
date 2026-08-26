@@ -1,4 +1,4 @@
-python=3.12
+python==3.12
 torch==2.10.0
 voila
 fastai==2.8.7
