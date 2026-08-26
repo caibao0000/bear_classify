@@ -1,8 +1,18 @@
 channels:
-  - conda-forge
   - pytorch
+  - conda-forge
+  - defaults
 dependencies:
   - python=3.12
-  - pip
-  - pip:
-    - -r requirements.txt
+  # ---- 基础运行/交互 ----
+  - numpy=2.0.2
+  - pillow=11.3.0
+  - ipywidgets>=8.0.0
+  - ipython
+  - jupyter_client
+  # ---- 学习框架（固定版本，避免冲突）----
+  - fastai=2.8.7
+  - fastcore=1.12.42
+  - fasttransform
+  # ---- 显示/服务（按需，若不用 voila 可删除）----
+  - voila
